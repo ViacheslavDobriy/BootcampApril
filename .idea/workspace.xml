@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddcb8070-4b69-412d-bf3f-61ad7fb16721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/WorkWithStrings.java" afterDir="false" />
+    <list default="true" id="ddcb8070-4b69-412d-bf3f-61ad7fb16721" name="Changes" comment="Added test for method clearString from class DeleteDigits. &#10;Test passed successfully.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day1/DeleteDigitsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day1/DeleteDigitsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +17,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CPlKl45fqiBKdtSVp3onY1VtMd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -36,9 +41,55 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Day1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DeleteDigitsTest">
+    <configuration name="WorkWithStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1.WorkWithStrings" />
+      <module name="Bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bootcamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day1" />
+      <option name="MAIN_CLASS_NAME" value="Day1.DeleteDigitsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeleteDigitsTest" />
+        <item itemvalue="Application.WorkWithStrings" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +99,35 @@
       <option name="presentableId" value="Default" />
       <updated>1658712045534</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create repository">
+      <created>1658712522522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658712522522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added method which delete digits from string.&#10;I used construction try catch.">
+      <created>1658713888634</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658713888634</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Divided program in 2 classes.">
+      <created>1658716573637</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658716573637</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added test for method clearString from class DeleteDigits. &#10;Test passed successfully.">
+      <created>1658717448662</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658717448662</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,5 +140,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create repository" />
+    <MESSAGE value="Added method which delete digits from string.&#10;I used construction try catch." />
+    <MESSAGE value="Divided program in 2 classes." />
+    <MESSAGE value="Added test for method clearString from class DeleteDigits. &#10;Test passed successfully." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test for method clearString from class DeleteDigits. &#10;Test passed successfully." />
   </component>
 </project>
